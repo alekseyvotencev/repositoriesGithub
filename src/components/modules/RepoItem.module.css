@@ -1,0 +1,29 @@
+.repo__item {
+    padding: 20px;
+    display: flex;
+    background-color: #FFF;
+    border-bottom: 1px solid rgba(200, 197, 209, .5);
+}
+
+.repo__name,
+.repo__visibility,
+.repo__created,
+.repo__pushed {
+    flex: 1 1 25%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333;
+}
+
+.repo__name_link {
+    color: #9873FF;
+}
+
+.repo__created_date, .repo__pushed_date {
+    margin-right: 15px;
+}
+
+.repo__created_time, .repo__pushed_time {
+    color: #B0B0B0;
+}
